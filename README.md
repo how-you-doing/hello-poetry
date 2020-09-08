@@ -53,7 +53,8 @@ poetry install
 
 ## Other useful commands
 
-- `poetry build` - will package your library in two different formats: `sdist` which is the `source` format, and `wheel` whihc is a `compiled` package.
+- `poetry build` - will package your library in two different formats: `sdist` which is the `source` format, and `wheel` which is a `compiled` package.
+
 - `poetry publish` -  will package and publish the library to PyPI, at the condition that you are a registered user and you have [configured your credentials](https://python-poetry.org/docs/repositories/#adding-credentials) properly.
 
 <br>
