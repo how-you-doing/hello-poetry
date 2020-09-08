@@ -2,6 +2,9 @@
 
 [Poetry](https://python-poetry.org/docs/) is a tool for dependency management and packaging in Python. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
+
+<br>
+
 ## Installation
 
 ```
@@ -11,9 +14,13 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 - add line `source $HOME/.poetry/env` to `.bashrc` or else you have to manually run this command each and every time you start off a terminal
 - run `poetry --version` to verify the installation
 
+<br>
+
 ## 1. Create a new project
 
 - `poetry new hello-poetry` - will create a new directory called hello-poetry which will have few default files
+
+<br>
 
 ## 2. Important Concepts
 
@@ -31,6 +38,8 @@ or we can use `add` command
 poetry add pendulum
 ```
 
+<br>
+
 ## 3. The lock file
 
 ```
@@ -39,6 +48,8 @@ poetry install
 
 - Poetry simply resolves all dependencies listed in your `pyproject.toml` file and it writes all of the packages and the exact versions of them that it downloaded to the `poetry.lock` file
 - Commit your poetry.lock file to version control, becuase it will let users who sets up the project to use the exact same versions of the dependencies that you are using.
+
+<br>
 
 ## Note
 
